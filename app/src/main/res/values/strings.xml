@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Kitchies</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_category">Category</string>
+    <string name="nav_recent">Recently Viewed</string>
+    <string name="nav_share">Share</string>
+    <string name="nav_rate">Rate US</string>
+    <string name="nav_feedback">FeedBack</string>
+    <string name="nav_setting">Setting</string>
+    <string name="nav_aboutus">AboutUs</string>
+    <string name="nav_tutorial">HowTo</string>
+    <string name="nav_login">Login</string>
+
+    <string name="setting_lan">Language</string>
+    <string name="setting_measure">Measurement Unit</string>
+    <string name="setting_clear">Clear Cache</string>
+    <string name="setting_lib">Library</string>
+
+    <string name="aboutus">મોંમા પાણી આવી જાય એવી સ્વાદિષ્ટ ગુજરાતી વાનગીઓ.\n\nThis Is Our Final Year Project.\n\n This App is For food lovers.\n  </string>
+    <string name="category">Category1\nCategory2\nCategory3\nCategory4\nCategory5\nCategory6\nCategory7\nCategory8\n</string>
+    <string name="recentview">Recent View Item1\nRecent View Item2\nRecent View Item3\nRecent View Item4\nRecent View Item5\nRecent View Item6\n</string>
+    <string name="panipuri">This popular street food doesn’t need any introduction! Potato, onion, chickpeas, coriander chutney stuffed crispy puri drenched in sour and spicy mint flavored water (pudina pani) easily fills one’s mouth and takes taste buds on a journey of heaven and it is no wonder that it’s a popular street snack along the length and breadth of India and known as gol gappa, puchka, pakodi, Pani Puri, etc. Preparing pudina vala pani and masala for panipuri at home is not only a healthier way of enjoying it but also allows you to customize it the way you like it. It is very simple to assemble and one can easily find puffed puri at any Indian grocery store or prepare at home with this receipe.</string>
+    <string name="cutles">वेजिटेबल कटलेट, एक बहुत ही बढ़िया पौष्टिक नाश्ता है जो बाहर से कुरकुरा और अंदर से मुलायम होता है और इसे आलू और बहुत सारी हरी सब्जियों से बनाया जाता है। जब इस कटलेट को मसालेदार पुदीने की चटनी या इमली की खट्टी-मीठी चटनी के साथ परोसा जाता है तब स्वाद में चार चाँद लग जाते है। यह बच्चों के लिए एक बेहतरीन नाश्ता है क्यूंकि इसमें सब्जियां भी आ जाती है और बच्चों को पसंद भी आता है। इस रेसिपी में आसान तरीके से कटलेट घर पर कैसे बनाते है वो बताया गया है तो आईये आज हम इसे बनाते है।</string>
+    <string name="rusiansalad">Have you ever tried combining fresh vegetables and fresh fruits in a single salad? If not, then try this Russian salad recipe. It is unique and healthy salad in its own ways as this recipe uses potato, fresh vegetables and fresh fruits and homemade yogurt based dressing. This tempting and mouth watering salad is not just healthy but very easy to prepare as well.</string>
+    <string name="indiansalad">Have you ever tried combining fresh vegetables and fresh fruits in a single salad? If not, then try this Russian salad recipe. It is unique and healthy salad in its own ways as this recipe uses potato, fresh vegetables and fresh fruits and homemade yogurt based dressing. This tempting and mouth watering salad is not just healthy but very easy to prepare as well.</string>
+    <string name="sevpuri">કૂકરમાં ઢોકળા બનાવવાની વિધિ સામગ્રી : 500 ચણાનો લોટ (બેસન, છીણેલુ નારિયેળ, આદુ મરચાંનુ પેસ્ટ, ચપટી હિંગ, રાઈ, કોથમીર, તેલ, મીઠુ સ્વાદમુજબ, ખાવાનો સોડા અડધી ચમચી (ઈનો ફ્રૂટ સાલ્ટ)બનાવવાની રીત - સૌ પ્રથમ બેસનને ગાળી લો.   હવે તેમાં આદુ-મરચાનુ પેસ્ટ અને મીઠુ નાખી મિક્સ કરો. આખરે તેમાં તેલ અને સોડા નાખી ખૂબ ફીણો અને આથો આવવા દો. આથો આવ્યા પછી તે ખીરાને તરત જ થાળીમાં તેલ લગાવી ખીરાને પાથરી લો. હવે આ થાળીને કૂકરામાં રાખો અને ઢકાણુ બંદ કરી દો.ધ્યાન રાખો કે કૂકરની સીટી નહી લગાવવી.મધ્યમ તાપ પર 20-25 મિનિટ સુધી વરાળથી બાફી લો. 10 મિનિટ ઠંડુ થયા પછી તેને ચોરસ કાપી લો.એક કઢાઈમાં તેલ તપાવી રાઈ-હિંગ તતડાવો. આ ત તડકામાં એક કપ પાણી અને ખાંડ નાહી એક ઉકળા લઈ તાપ બંદ કરી નાખો.તૈયાર તકડકાને ઢોકળા પર નાખો અને સમારેલી કોથમીર અને કોપરાનુ છીણ ભભરાવી ચટણી સાથે સર્વ કરો. </string>
+    <string name="doughnut">A doughnut or donut is a type of fried dough confectionery or dessert food. The doughnut is popular in many countries and prepared in various forms as a sweet snack that can be homemade or purchased in bakeries, supermarkets, food stalls, and franchised specialty vendors.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
