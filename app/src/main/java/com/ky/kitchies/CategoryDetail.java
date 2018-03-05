@@ -108,4 +108,16 @@ public class CategoryDetail extends AppCompatActivity {
         });
         mydialog.show();
     }
+
+    public void share(View v){
+
+        Intent intent = getIntent();
+        String Description = intent.getExtras().getString("Description");
+
+        Intent myintentshare = new Intent(Intent.ACTION_SEND);
+        myintentshare.setType("text/plain");
+        myintentshare.putExtra(Intent.EXTRA_TEXT, Description+"Download Our App KITCHIES.");
+        startActivity(Intent.createChooser(myintentshare, "Share Using"));
+
+    }
 }

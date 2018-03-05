@@ -20,7 +20,7 @@
     <string name="setting_clear">Clear Cache</string>
     <string name="setting_lib">Library</string>
 
-    <string name="aboutus">મોંમા પાણી આવી જાય એવી સ્વાદિષ્ટ ગુજરાતી વાનગીઓ.\n\nThis Is Our Final Year Project.\n\n This App is For food lovers.\n  </string>
+    <string name="aboutus">\nThis Is Our Final Year Project.\n\n This App is For food lovers.\n  </string>
     <string name="category">Category1\nCategory2\nCategory3\nCategory4\nCategory5\nCategory6\nCategory7\nCategory8\n</string>
     <string name="recentview">Recent View Item1\nRecent View Item2\nRecent View Item3\nRecent View Item4\nRecent View Item5\nRecent View Item6\n</string>
     <string name="panipuri">This popular street food doesn’t need any introduction! Potato, onion, chickpeas, coriander chutney stuffed crispy puri drenched in sour and spicy mint flavored water (pudina pani) easily fills one’s mouth and takes taste buds on a journey of heaven and it is no wonder that it’s a popular street snack along the length and breadth of India and known as gol gappa, puchka, pakodi, Pani Puri, etc. Preparing pudina vala pani and masala for panipuri at home is not only a healthier way of enjoying it but also allows you to customize it the way you like it. It is very simple to assemble and one can easily find puffed puri at any Indian grocery store or prepare at home with this receipe.</string>
@@ -31,6 +31,10 @@
     <string name="doughnut">A doughnut or donut is a type of fried dough confectionery or dessert food. The doughnut is popular in many countries and prepared in various forms as a sweet snack that can be homemade or purchased in bakeries, supermarkets, food stalls, and franchised specialty vendors.</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_setting_fragment">Setting Fragment Is Under Devlopment</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_login_fragment">LoginFragment Is Under Devlopment</string>
 
 </resources>

@@ -66,34 +66,34 @@ public class Drawerlayout extends AppCompatActivity {
                 setTitle(menuitem.getTitle());
                 break;
             case R.id.nav_item_login:
-                fragmentClass = CategoryFragment.class;
+                fragmentClass = LoginFragment.class;
                 setTitle(menuitem.getTitle());
                 break;
             case R.id.nav_item_rate:
                 fragmentClass = HomeFragment.class;
                 Uri uri = Uri.parse("market://details?id=");
-                Intent myintent = new Intent(Intent.ACTION_VIEW, uri);
-                startActivity(myintent);
+                Intent myintentrate = new Intent(Intent.ACTION_VIEW, uri);
+                startActivity(myintentrate);
                 setTitle("Home");
                 break;
             case R.id.nav_item_share:
                 fragmentClass = HomeFragment.class;
-                Intent myIntent = new Intent(Intent.ACTION_SEND);
-                myIntent.setType("text/plain");
+                Intent myintentshare = new Intent(Intent.ACTION_SEND);
+                myintentshare.setType("text/plain");
                 String shareSub = "Download Our App For New Receipe And Lots More Features.....Link:-http://www.kitchies.com";
-                myIntent.putExtra(Intent.EXTRA_TEXT, shareSub);
-                startActivity(Intent.createChooser(myIntent, "Share Using"));
+                myintentshare.putExtra(Intent.EXTRA_TEXT, shareSub);
+                startActivity(Intent.createChooser(myintentshare, "Share Using"));
                 setTitle("Home");
                 break;
             case R.id.nav_item_feedback:
                 fragmentClass = HomeFragment.class;
                 Uri uri1 = Uri.parse("market://details?id=");
-                Intent myintent1 = new Intent(Intent.ACTION_VIEW, uri1);
-                startActivity(myintent1);
+                Intent myintentfeedback = new Intent(Intent.ACTION_VIEW, uri1);
+                startActivity(myintentfeedback);
                 setTitle("Home");
                 break;
             case R.id.nav_item_setting:
-                fragmentClass = RecentlyViewFragment.class;
+                fragmentClass = SettingFragment.class;
                 setTitle(menuitem.getTitle());
                 break;
             case R.id.nav_item_aboutus:

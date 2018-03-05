@@ -1,6 +1,7 @@
 package com.ky.kitchies;
 
 import android.os.Bundle;
+import android.os.SystemClock;
 import android.support.v4.app.Fragment;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.GridLayoutManager;
@@ -33,39 +34,42 @@ public class CategoryFragment extends Fragment {
 
         lstcategory=new ArrayList<>();
 
-        lstcategory.add(new Category("Cutles","Snack",getString(R.string.cutles),R.drawable.food1));
-        lstcategory.add(new Category("Panipuri","Light Snack",getString(R.string.panipuri),R.drawable.food2));
-        lstcategory.add(new Category("RusianSalad","Soup",getString(R.string.rusiansalad),R.drawable.food3));
-        lstcategory.add(new Category("Sevpuri","Lightsnack",getString(R.string.sevpuri),R.drawable.food4));
-        lstcategory.add(new Category("Indian Salad","Salad",getString(R.string.indiansalad),R.drawable.food5));
-        lstcategory.add(new Category("Doughnut","Sweet",getString(R.string.doughnut),R.drawable.food6));
+        lstcategory.add(new Category("Snaks","Snack",getString(R.string.cutles),R.drawable.food1));
+        lstcategory.add(new Category("Soup and Drinkd","Light Snack",getString(R.string.panipuri),R.drawable.food2));
+        lstcategory.add(new Category("Curries","Soup",getString(R.string.rusiansalad),R.drawable.food3));
+        lstcategory.add(new Category("Children Specail","Lightsnack",getString(R.string.sevpuri),R.drawable.food4));
+        lstcategory.add(new Category("Punjabi","Salad",getString(R.string.indiansalad),R.drawable.food5));
+        lstcategory.add(new Category("Gujarati","Sweet",getString(R.string.doughnut),R.drawable.food6));
 
-        lstcategory.add(new Category("Cutles","Snack",getString(R.string.cutles),R.drawable.food1));
-        lstcategory.add(new Category("Panipuri","Light Snack",getString(R.string.panipuri),R.drawable.food2));
-        lstcategory.add(new Category("RusianSalad","Soup",getString(R.string.rusiansalad),R.drawable.food3));
-        lstcategory.add(new Category("Sevpuri","Lightsnack",getString(R.string.sevpuri),R.drawable.food4));
-        lstcategory.add(new Category("Indian Salad","Salad",getString(R.string.indiansalad),R.drawable.food5));
-        lstcategory.add(new Category("Doughnut","Sweet",getString(R.string.doughnut),R.drawable.food6));
+        lstcategory.add(new Category("Snaks","Snack",getString(R.string.cutles),R.drawable.food1));
+        lstcategory.add(new Category("Soup and Drinkd","Light Snack",getString(R.string.panipuri),R.drawable.food2));
+        lstcategory.add(new Category("Curries","Soup",getString(R.string.rusiansalad),R.drawable.food3));
+        lstcategory.add(new Category("Children Specail","Lightsnack",getString(R.string.sevpuri),R.drawable.food4));
+        lstcategory.add(new Category("Punjabi","Salad",getString(R.string.indiansalad),R.drawable.food5));
+        lstcategory.add(new Category("Gujarati","Sweet",getString(R.string.doughnut),R.drawable.food6));
 
-        lstcategory.add(new Category("Cutles","Snack",getString(R.string.cutles),R.drawable.food1));
-        lstcategory.add(new Category("Panipuri","Light Snack",getString(R.string.panipuri),R.drawable.food2));
-        lstcategory.add(new Category("RusianSalad","Soup",getString(R.string.rusiansalad),R.drawable.food3));
-        lstcategory.add(new Category("Sevpuri","Lightsnack",getString(R.string.sevpuri),R.drawable.food4));
-        lstcategory.add(new Category("Indian Salad","Salad",getString(R.string.indiansalad),R.drawable.food5));
-        lstcategory.add(new Category("Doughnut","Sweet",getString(R.string.doughnut),R.drawable.food6));
+        lstcategory.add(new Category("Snaks","Snack",getString(R.string.cutles),R.drawable.food1));
+        lstcategory.add(new Category("Soup and Drinkd","Light Snack",getString(R.string.panipuri),R.drawable.food2));
+        lstcategory.add(new Category("Curries","Soup",getString(R.string.rusiansalad),R.drawable.food3));
+        lstcategory.add(new Category("Children Specail","Lightsnack",getString(R.string.sevpuri),R.drawable.food4));
+        lstcategory.add(new Category("Punjabi","Salad",getString(R.string.indiansalad),R.drawable.food5));
+        lstcategory.add(new Category("Gujarati","Sweet",getString(R.string.doughnut),R.drawable.food6));
 
         RecyclerView myrv=(RecyclerView) view.findViewById(R.id.recyclerview_id1);
         RecyclerViewAdapter myAdapter =new RecyclerViewAdapter(this.getActivity(),lstcategory);
         myrv.setLayoutManager(new GridLayoutManager(this.getActivity(),1));
         myrv.setAdapter(myAdapter);
 
-        PullToRefreshView mPullToRefreshView;
+        final PullToRefreshView mPullToRefreshView;
 
         mPullToRefreshView = (PullToRefreshView) view.findViewById(R.id.pullrefresh);
         mPullToRefreshView.setOnRefreshListener(new PullToRefreshView.OnRefreshListener() {
             @Override
-            public void onRefresh() {}
+            public void onRefresh() {
+                //To Load New Category.
+            }
         });
+
         return view;
     }
 
